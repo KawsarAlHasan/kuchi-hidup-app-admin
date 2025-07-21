@@ -10,6 +10,7 @@ import Test from "../Test";
 import UserManagement from "../pages/usersManagement/UserManagement";
 import CheckCode from "../pages/login/CheckCode";
 import Administrators from "../pages/administrators/Administrators";
+import Chat from "../pages/chat/Chat";
 
 export const router = createBrowserRouter([
   {
@@ -47,6 +48,10 @@ export const router = createBrowserRouter([
       {
         path: "/administrators",
         element: <Administrators />,
+      },
+      {
+        path: "/chat",
+        element: <Chat />,
       },
     //   {
     //     path: "/payouts",

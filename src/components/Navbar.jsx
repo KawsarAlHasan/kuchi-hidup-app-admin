@@ -59,7 +59,7 @@ const navigate = useNavigate();
             <Button
               type="text"
               className="md:hidden mr-2"
-              icon={<MenuOutlined className="text-lg text-white" />}
+              icon={<MenuOutlined className="text-lg" />}
               onClick={showDrawer}
             />
 

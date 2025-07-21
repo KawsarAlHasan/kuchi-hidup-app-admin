@@ -1,14 +1,13 @@
 import { Avatar, Space, Table } from "antd";
 import IsError from "../../components/IsError";
 import IsLoading from "../../components/IsLoading";
-import { useTermsConditions } from "../../services/administratorsService";
+import { useAdministrators } from "../../services/administratorsService";
 import { DeleteOutlined, EditOutlined } from "@ant-design/icons";
 
 function Administrators() {
   const { administrators, isLoading, isError, error, refetch } =
-    useTermsConditions();
+    useAdministrators();
 
-  console.log("administrators", administrators);
 
   const columns = [
     {

@@ -30,12 +30,7 @@ const Sidebar = ({ onClick }) => {
     if (path === "/") return ["1"];
     if (path === "/user-management") return ["2"];
     if (path === "/administrators") return ["3"];
-    if (path === "/payouts") return ["4"];
-    if (path === "/chat") return ["5"];
-    if (path === "/leaderboard") return ["6"];
-    if (path === "/profile") return ["7-1"];
-    if (path === "/terms-conditions") return ["7-2"];
-    if (path === "/privacy-policy") return ["7-3"];
+    if (path === "/chat") return ["4"];
     return ["1"];
   };
 

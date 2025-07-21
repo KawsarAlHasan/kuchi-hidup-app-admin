@@ -33,6 +33,13 @@ export const getMockAdministrators = async () => {
   return response.data;
 };
 
+// users list for messages
+export const getMockUsersForMessages = async () => {
+  const response = await axios.get("/users_for_list.json");
+
+  return response.data;
+};
+
 
 // // Flagged Content List
 // export const getMockFlaggedContent = async ({ page = 1, limit = 10 }) => {
