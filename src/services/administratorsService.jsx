@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { getMockAdministrators } from "../api/api";
 
-export const useTermsConditions = () => {
+export const useAdministrators = () => {
   const {
     data: administrators = [],
     isLoading,

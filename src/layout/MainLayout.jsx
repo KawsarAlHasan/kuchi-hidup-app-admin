@@ -99,12 +99,12 @@ const MainLayout = () => {
               <div className="flex items-center gap-x-2 mb-5">
                 <ArrowLeftOutlined
                   onClick={handleGoBack}
-                  className="text-gray-500 text-[30px] mt-1 font-semibold cursor-pointer hover:text-black"
+                  className="text-gray-500 text-[20px] lg:text-[30px] mt-1 font-semibold cursor-pointer hover:text-black"
                 />
 
                 <Breadcrumb
                   separator={<span style={{ color: "gray" }}>/</span>}
-                  className=" text-[32px] font-semibold"
+                  className=" text-[20px] lg:text-[32px] font-semibold"
                 >
                   {generateBreadcrumbItems().map((item, index) => (
                     <Breadcrumb.Item key={index}>
